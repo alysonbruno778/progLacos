@@ -4,3 +4,9 @@ Desenvolver um programa que apresente todos os valores numéricos inteiros ímpa
 mostre-o; não sendo, passe para o próximo passo
 """
 
+n = 0
+while ( n <= 20):
+    div = n % 2
+    if(div == 1):
+        print(f"{n} é impar")
+    n = n + 1
